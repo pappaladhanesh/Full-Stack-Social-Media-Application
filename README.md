@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿
 ![Logo](https://mydevify.com/assets/logo.c98d2a42.svg)
 
@@ -153,3 +154,6 @@ Feel free to explore and contribute to this open-source project. Your contributi
 
 This project is licensed under the [MIT License](LICENSE).
 
+=======
+# Full-Stack-Social-Media-Application
+>>>>>>> 06e5e02e6dcd66406afa97e4098566204dea6e5e
