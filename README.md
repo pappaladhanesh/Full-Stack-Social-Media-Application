@@ -82,4 +82,4 @@ Configure MySQL database settings in the backend configuration files.
  password: 12345678
 ```
 
-Note: The project is not fully functional yet, I'll upload the final version after I deploy and test it.
+Note: The project is still ongoing and not fully functional yet, I'll upload the final version after I deploy and test it.
