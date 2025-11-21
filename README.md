@@ -1,59 +1,6 @@
-<<<<<<< HEAD
-﻿
-![Logo](https://mydevify.com/assets/logo.c98d2a42.svg)
-
-![Logo](https://mydevify.com/assets/index.494ac568.png)
-
-#### ~~This GitHub open-source project isn't fully prepared for use yet; I'm still actively refining the code to enhance its functionality. Additionally, I'll be updating the MySQL database structure soon.~~
-
-#### Great news! This GitHub open-source project is now fully prepared for use. Dive in and explore its features!
-
-
-## SocialPulse 2024 React Node.js MySQL Social Media App Open Source
-
-### Full Stack Social Network App | Open Source
+### Full Stack Social Network App
 
 This repository contains the source code for SocialPulse, a full-stack social media application built using React.js, daisyUI, Tailwind CSS, Express.js, Node.js, MySQL, and React Query. SocialPulse provides a comprehensive platform for users to connect, share posts, interact with friends, and engage in social networking activities.
-
-
-### ShowCase:
-- **Homepage Dark Mode**:
-
-  ![Homepage Dark Mode](ShowCase/dark.PNG)
-
-
-- **Homepage Light Mode**:
-
-  ![Homepage Light Mode](ShowCase/Light.PNG)
-
-
-- **Login Page**:
-
-  ![Login Page](ShowCase/Login.PNG)
-
-
-- **Register Page**:
-
-  ![Register Page](ShowCase/register.PNG)
-
-
-- **Profile**:
-
-  ![Profile](ShowCase/Profile.PNG)
-
-
-- **Manage Settings**:
-
-  ![Manage Settings](ShowCase/Edit_Profile.PNG)
-
-
-- **Manage Post**:
-
-  ![Manage Post](ShowCase/manage_post.PNG)
-
-- **And many more features such as creating and managing stories, etc...**
-
-
 
 ### Technologies Used:
 
@@ -83,7 +30,7 @@ This repository contains the source code for SocialPulse, a full-stack social me
 Clone the project
 
 ```bash
-  git clone gh repo clone mydevify/SocialPulse-React-Node.js-MySQL-Social-Media-App-Full-Stack-Social-Network-App-Open-Source
+  git clone gh repo clone pappaladhanesh/Full-Stack-Social-Media-Application
 ```
 
 Go to the Server directory
@@ -131,29 +78,8 @@ Configure MySQL database settings in the backend configuration files.
 ```bash
  Login info:
  
- Username: xLoy
- password: 123456789
+ Username: dhanesh
+ password: 12345678
 ```
 
-
-~~Note: I'll upload the database once the project is completed.~~
-
-The Database has been added to the project Source.
-
-
-
-### Contributors:
-
-- [xLoy](https://github.com/mydevify)
-- [Safak](https://github.com/safak)
-- [Lama Dev](https://www.youtube.com/@LamaDev) - For insightful tutorials and guidance on building React Node.js applications.
-
-Feel free to explore and contribute to this open-source project. Your contributions are highly appreciated!
-
-### License:
-
-This project is licensed under the [MIT License](LICENSE).
-
-=======
-# Full-Stack-Social-Media-Application
->>>>>>> 06e5e02e6dcd66406afa97e4098566204dea6e5e
+Note: The project is not fully functional yet, I'll upload the final version after I deploy and test it.
