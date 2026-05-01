@@ -9,19 +9,18 @@ export const getUser = (req, res) => {
   db.query(q, [userId], (err, data) => {
     if (err) return res.status(500).json(err);
     if (data.length === 0) {
-      return res.status(404).json({ message: "User not found" }); // in case tneket show this
+      return res.status(404).json({ message: "User not found" });
     }
     const { password, ...info } = data[0];
     return res.json(info);
   });
 };
 
-
 export const updateUser = (req, res) => {
   const token = req.cookies.accessToken;
   if (!token) return res.status(401).json("Not authenticated!");
 
-  jwt.verify(token, "secretkey", (err, userInfo) => {
+  jwt.verify(token, process.env.JWT_SECRET, (err, userInfo) => {
     if (err) return res.status(403).json("Token is not valid!");
 
     const q =
@@ -30,14 +29,6 @@ export const updateUser = (req, res) => {
     db.query(
       q,
       [
-
-        // username:"",
-        // name:"",
-        // email:"",
-        // bio:"",
-        // instagram:"",
-        // website:"",
-
         req.body.name,
         req.body.bio,
         req.body.website,
@@ -53,4 +44,3 @@ export const updateUser = (req, res) => {
     );
   });
 };
-

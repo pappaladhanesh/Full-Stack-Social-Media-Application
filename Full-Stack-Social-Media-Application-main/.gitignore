@@ -7,3 +7,17 @@ frontend/node_modules/
 
 # Ignore node_modules directory in the API directory
 API/node_modules/
+
+# Environment variables — NEVER commit these
+.env
+API/.env
+frontend/.env
+*.env
+
+# Build output
+frontend/dist/
+frontend/.vite/
+
+# OS files
+.DS_Store
+Thumbs.db
